@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5188245290FA72600BA8ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188244290FA72600BA8ADA /* AppDelegate.swift */; };
+		F5188247290FA72600BA8ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188246290FA72600BA8ADA /* SceneDelegate.swift */; };
+		F5188249290FA72600BA8ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188248290FA72600BA8ADA /* ViewController.swift */; };
+		F518824C290FA72600BA8ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F518824A290FA72600BA8ADA /* Main.storyboard */; };
+		F518824E290FA72700BA8ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F518824D290FA72700BA8ADA /* Assets.xcassets */; };
+		F5188251290FA72700BA8ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F518824F290FA72700BA8ADA /* LaunchScreen.storyboard */; };
+		F518825C290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518825B290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeTests.swift */; };
+		F5188266290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188265290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITests.swift */; };
+		F5188268290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188267290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5188258290FA72700BA8ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5188239290FA72600BA8ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5188240290FA72600BA8ADA;
+			remoteInfo = "Personailty Quiz_HarukiAbe";
+		};
+		F5188262290FA72700BA8ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5188239290FA72600BA8ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5188240290FA72600BA8ADA;
+			remoteInfo = "Personailty Quiz_HarukiAbe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5188241290FA72600BA8ADA /* Personailty Quiz_HarukiAbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personailty Quiz_HarukiAbe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5188244290FA72600BA8ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5188246290FA72600BA8ADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5188248290FA72600BA8ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F518824B290FA72600BA8ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F518824D290FA72700BA8ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5188250290FA72700BA8ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5188252290FA72700BA8ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5188257290FA72700BA8ADA /* Personailty Quiz_HarukiAbeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personailty Quiz_HarukiAbeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F518825B290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personailty_Quiz_HarukiAbeTests.swift; sourceTree = "<group>"; };
+		F5188261290FA72700BA8ADA /* Personailty Quiz_HarukiAbeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personailty Quiz_HarukiAbeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5188265290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personailty_Quiz_HarukiAbeUITests.swift; sourceTree = "<group>"; };
+		F5188267290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personailty_Quiz_HarukiAbeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F518823E290FA72600BA8ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188254290FA72700BA8ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F518825E290FA72700BA8ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5188238290FA72600BA8ADA = {
+			isa = PBXGroup;
+			children = (
+				F5188243290FA72600BA8ADA /* Personailty Quiz_HarukiAbe */,
+				F518825A290FA72700BA8ADA /* Personailty Quiz_HarukiAbeTests */,
+				F5188264290FA72700BA8ADA /* Personailty Quiz_HarukiAbeUITests */,
+				F5188242290FA72600BA8ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5188242290FA72600BA8ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5188241290FA72600BA8ADA /* Personailty Quiz_HarukiAbe.app */,
+				F5188257290FA72700BA8ADA /* Personailty Quiz_HarukiAbeTests.xctest */,
+				F5188261290FA72700BA8ADA /* Personailty Quiz_HarukiAbeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5188243290FA72600BA8ADA /* Personailty Quiz_HarukiAbe */ = {
+			isa = PBXGroup;
+			children = (
+				F5188244290FA72600BA8ADA /* AppDelegate.swift */,
+				F5188246290FA72600BA8ADA /* SceneDelegate.swift */,
+				F5188248290FA72600BA8ADA /* ViewController.swift */,
+				F518824A290FA72600BA8ADA /* Main.storyboard */,
+				F518824D290FA72700BA8ADA /* Assets.xcassets */,
+				F518824F290FA72700BA8ADA /* LaunchScreen.storyboard */,
+				F5188252290FA72700BA8ADA /* Info.plist */,
+			);
+			path = "Personailty Quiz_HarukiAbe";
+			sourceTree = "<group>";
+		};
+		F518825A290FA72700BA8ADA /* Personailty Quiz_HarukiAbeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F518825B290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeTests.swift */,
+			);
+			path = "Personailty Quiz_HarukiAbeTests";
+			sourceTree = "<group>";
+		};
+		F5188264290FA72700BA8ADA /* Personailty Quiz_HarukiAbeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5188265290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITests.swift */,
+				F5188267290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITestsLaunchTests.swift */,
+			);
+			path = "Personailty Quiz_HarukiAbeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5188240290FA72600BA8ADA /* Personailty Quiz_HarukiAbe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F518826B290FA72700BA8ADA /* Build configuration list for PBXNativeTarget "Personailty Quiz_HarukiAbe" */;
+			buildPhases = (
+				F518823D290FA72600BA8ADA /* Sources */,
+				F518823E290FA72600BA8ADA /* Frameworks */,
+				F518823F290FA72600BA8ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personailty Quiz_HarukiAbe";
+			productName = "Personailty Quiz_HarukiAbe";
+			productReference = F5188241290FA72600BA8ADA /* Personailty Quiz_HarukiAbe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5188256290FA72700BA8ADA /* Personailty Quiz_HarukiAbeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F518826E290FA72700BA8ADA /* Build configuration list for PBXNativeTarget "Personailty Quiz_HarukiAbeTests" */;
+			buildPhases = (
+				F5188253290FA72700BA8ADA /* Sources */,
+				F5188254290FA72700BA8ADA /* Frameworks */,
+				F5188255290FA72700BA8ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5188259290FA72700BA8ADA /* PBXTargetDependency */,
+			);
+			name = "Personailty Quiz_HarukiAbeTests";
+			productName = "Personailty Quiz_HarukiAbeTests";
+			productReference = F5188257290FA72700BA8ADA /* Personailty Quiz_HarukiAbeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5188260290FA72700BA8ADA /* Personailty Quiz_HarukiAbeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5188271290FA72700BA8ADA /* Build configuration list for PBXNativeTarget "Personailty Quiz_HarukiAbeUITests" */;
+			buildPhases = (
+				F518825D290FA72700BA8ADA /* Sources */,
+				F518825E290FA72700BA8ADA /* Frameworks */,
+				F518825F290FA72700BA8ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5188263290FA72700BA8ADA /* PBXTargetDependency */,
+			);
+			name = "Personailty Quiz_HarukiAbeUITests";
+			productName = "Personailty Quiz_HarukiAbeUITests";
+			productReference = F5188261290FA72700BA8ADA /* Personailty Quiz_HarukiAbeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5188239290FA72600BA8ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F5188240290FA72600BA8ADA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F5188256290FA72700BA8ADA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F5188240290FA72600BA8ADA;
+					};
+					F5188260290FA72700BA8ADA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F5188240290FA72600BA8ADA;
+					};
+				};
+			};
+			buildConfigurationList = F518823C290FA72600BA8ADA /* Build configuration list for PBXProject "Personailty Quiz_HarukiAbe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5188238290FA72600BA8ADA;
+			productRefGroup = F5188242290FA72600BA8ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5188240290FA72600BA8ADA /* Personailty Quiz_HarukiAbe */,
+				F5188256290FA72700BA8ADA /* Personailty Quiz_HarukiAbeTests */,
+				F5188260290FA72700BA8ADA /* Personailty Quiz_HarukiAbeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F518823F290FA72600BA8ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5188251290FA72700BA8ADA /* LaunchScreen.storyboard in Resources */,
+				F518824E290FA72700BA8ADA /* Assets.xcassets in Resources */,
+				F518824C290FA72600BA8ADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188255290FA72700BA8ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F518825F290FA72700BA8ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F518823D290FA72600BA8ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5188249290FA72600BA8ADA /* ViewController.swift in Sources */,
+				F5188245290FA72600BA8ADA /* AppDelegate.swift in Sources */,
+				F5188247290FA72600BA8ADA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188253290FA72700BA8ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F518825C290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F518825D290FA72700BA8ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5188266290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITests.swift in Sources */,
+				F5188268290FA72700BA8ADA /* Personailty_Quiz_HarukiAbeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5188259290FA72700BA8ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5188240290FA72600BA8ADA /* Personailty Quiz_HarukiAbe */;
+			targetProxy = F5188258290FA72700BA8ADA /* PBXContainerItemProxy */;
+		};
+		F5188263290FA72700BA8ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5188240290FA72600BA8ADA /* Personailty Quiz_HarukiAbe */;
+			targetProxy = F5188262290FA72700BA8ADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F518824A290FA72600BA8ADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F518824B290FA72600BA8ADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F518824F290FA72700BA8ADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5188250290FA72700BA8ADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5188269290FA72700BA8ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F518826A290FA72700BA8ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F518826C290FA72700BA8ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Personailty Quiz_HarukiAbe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haruki.Personailty-Quiz-HarukiAbe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F518826D290FA72700BA8ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Personailty Quiz_HarukiAbe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haruki.Personailty-Quiz-HarukiAbe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F518826F290FA72700BA8ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haruki.Personailty-Quiz-HarukiAbeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personailty Quiz_HarukiAbe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Personailty Quiz_HarukiAbe";
+			};
+			name = Debug;
+		};
+		F5188270290FA72700BA8ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haruki.Personailty-Quiz-HarukiAbeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personailty Quiz_HarukiAbe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Personailty Quiz_HarukiAbe";
+			};
+			name = Release;
+		};
+		F5188272290FA72700BA8ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haruki.Personailty-Quiz-HarukiAbeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personailty Quiz_HarukiAbe";
+			};
+			name = Debug;
+		};
+		F5188273290FA72700BA8ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haruki.Personailty-Quiz-HarukiAbeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personailty Quiz_HarukiAbe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F518823C290FA72600BA8ADA /* Build configuration list for PBXProject "Personailty Quiz_HarukiAbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5188269290FA72700BA8ADA /* Debug */,
+				F518826A290FA72700BA8ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F518826B290FA72700BA8ADA /* Build configuration list for PBXNativeTarget "Personailty Quiz_HarukiAbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F518826C290FA72700BA8ADA /* Debug */,
+				F518826D290FA72700BA8ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F518826E290FA72700BA8ADA /* Build configuration list for PBXNativeTarget "Personailty Quiz_HarukiAbeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F518826F290FA72700BA8ADA /* Debug */,
+				F5188270290FA72700BA8ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5188271290FA72700BA8ADA /* Build configuration list for PBXNativeTarget "Personailty Quiz_HarukiAbeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5188272290FA72700BA8ADA /* Debug */,
+				F5188273290FA72700BA8ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5188239290FA72600BA8ADA /* Project object */;
+}
